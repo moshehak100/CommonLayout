@@ -6,7 +6,7 @@ const Box = ({image}) => {
 
     return (
         <div className='box zone'>
-            <img src={image} alt='box img'/>
+            <img src={process.env.PUBLIC_URL + image} alt='box img'/>
         </div>
     );
 }

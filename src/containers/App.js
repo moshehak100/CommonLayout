@@ -6,6 +6,9 @@ import {boxs} from '../boxs';
 import './App.css';
 
 function App() {
+  const PORT = process.env.PORT;
+  // console.log('port:', PORT);
+  
   return (
     <div>
       <MainNav/>
